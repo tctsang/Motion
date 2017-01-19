@@ -1,0 +1,134 @@
+html, body {
+	overflow-x: hidden;
+}
+body {
+	font-family: "DagnyPro", Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Paralucent", Helvetica, Arial, sans-serif;
+}
+
+/* GRID */
+ .container {
+   margin-right: auto;
+   margin-left: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   position: relative;
+ }
+ .container:before,
+ .container:after {
+   content: " ";
+   display: table;
+ }
+ .container:after {
+   clear: both;
+ }
+ .one-half, .one-third, .one-fourth {
+   width:96%;
+   float:left;
+   position:relative;
+   min-height: 1px;
+   margin:0 2% 20px;
+ }
+@media (min-width: 768px){
+  .container{
+    width: 750px;
+  }
+}
+@media (min-width: 992px){
+  .container{
+    width: 970px;
+  }
+  .one-half{
+    width: 46%;
+  }
+  .one-third{
+    width: 29.33333%;
+  }
+  .one-fourth{
+    width: 21%;
+  }
+}
+@media (min-width: 1200px){
+  .container{
+    width: 1170px;
+  }
+}
+@media (min-width: 1050px){
+  .container{
+    width: 1024px;
+  }
+}
+ /* HEADER */
+ header {
+ 	float: center;
+	width: 1280px;
+	height: 600px;
+	background-image: linear-gradient(to bottom, #26a6d2, #116da5);
+ }
+  header nav.container {
+  	float: center;
+	width: 1280px;
+	height: 53px;
+    background-color: #003759;
+    padding:1em 0;
+ }
+ header nav ul.features {
+    display:inline;
+    float:center;
+    width: 304px;
+	height: 18px;
+	font-family: DagnyPro;
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+ }
+  header nav ul.onboard {
+    display:inline;
+    float:auto;
+    margin: 110px;
+    width: 133px;
+	height: 18px;
+	font-family: DagnyPro;
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: right;
+	color: #ffffff;
+ }
+ 
+ header nav ul > li {
+   list-style-type: none;
+   display: inline-block;
+   margin:0 15px;
+ }
+ header nav ul > li.btn-outline {
+   padding:10px 15px;
+   border:2px solid #FFFFFF;
+   border-radius: 4px;
+ }
+ header nav ul > li.btn-outline:hover {
+   background:#FFFFFF;
+ }
+ header nav ul > li > a {
+   color:#FFFFFF;
+   text-decoration: none;
+ }
+ header nav ul > li.btn-outline:hover > a {
+   color:#34495E;
+ }
+	
+
+
+
+
+
