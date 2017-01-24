@@ -1,0 +1,267 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	font-size: 62.5%;
+	font-family: "Paralucent", Helvetica, Arial, sans-serif;
+	color: #2b3840;
+}
+.wrapper {
+	font-size: 1.6em;
+	padding: 2em;
+	margin: 0 auto;
+	width: 1330px;
+	background-color: white;
+}
+/******************/
+/* Top Navigation */
+/******************/
+body div aside {
+	background-color: #003759;
+	padding: 18px auto;
+	width: 1280px;
+}
+.tn-list{
+	display: inline-block;
+}
+#logo{
+	margin: auto 335px auto 16px;
+	display: inline-block;
+}
+.tn-item{
+	height: 15.1px;
+	list-style-type: none;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	display: inline-block;
+	font-size: 1.1em;
+	color: white;
+	float: center;
+}
+#onboard{
+	display: inline-block;
+	margin-left: 280px;
+}
+.fifth-tn {
+	display: inline-block;
+	margin-right: 2px;
+}
+/****************/
+/***** Hero *****/
+/****************/
+#main-header{
+	text-align: center;
+}
+#hero-txt{
+	display: inline;
+	font-size: 1.4em;
+	text-align: center;
+}
+header {
+	background-image: url(../images/hero.png);
+	width: 1280px;
+	height: 459px;
+	padding-top: 65px;
+	background-repeat: no-repeat;
+	background-position: 1% 120%;
+}
+.button{
+	border-radius: 8px;
+	background-color: #0acc9f;
+	padding: 15px 38px;
+	color: white;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+.subscribe-span{
+	margin-top: 140px;
+	display: block;
+}
+h1{
+	font-size: 75px;
+	color: #ffffff;
+}
+h2{
+	font-size: 40px;
+	font-weight: 500;
+	color: #ffffff;
+}
+h3{
+	font-size: 18px;
+	font-family: "DagnyPro", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	color: #ffffff;
+}
+/*****************/
+/***** Links *****/
+/*****************/
+.link{
+	display: inline-block;
+	margin: 50px auto;
+}
+.first-link{
+	text-align: center;
+	margin-left: 126px;
+}
+.second-link{
+	text-align: center;
+	margin-left: 273px;
+}
+.third-link{
+	text-align: center;
+	margin-left: 273px;
+}
+.link-title{
+	padding-top: 10px;
+	font-size: 18px;
+}
+/********************/
+/***** Benefits *****/
+/********************/
+.benefits{
+	display: block;
+}
+.first-benefits-txt{
+	text-align: left;
+	display: inline-block;
+	margin: auto auto 100px 70px;
+	position: relative;
+	left: 20px;
+	bottom: 100px;
+}
+.second-benefits-txt{
+	text-align: left;
+	display: inline-block;
+	margin: auto 70px 100px auto;
+	position: relative;
+	left: 70px;
+	bottom: 130px;
+}
+.third-benefits-txt{
+	text-align: left;
+	display: inline-block;
+	margin: auto auto 100px 70px;
+	position: relative;
+	left: 20px;
+	bottom: 115px;
+}
+.first-benefits-img{
+	margin: auto auto auto 150px;
+}
+.second-benefits-img{
+	margin: auto auto auto 85px;
+}
+.third-benefits-img{
+	margin: auto auto auto 120px;
+}
+.first-benefit{
+	display: inline-block;
+}
+.second-benefit{
+	display: inline-block;
+}
+.third-benefit{
+	display: inline-block;
+}
+.benefits-title{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.benefits-description{
+	font-family: "DagnyPro", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	color: #676B6D;
+}
+/************************/
+/***** Testimonials *****/
+/************************/
+.testimonials-block{
+	background-color: #4C616E;
+	width: 1280px;
+	padding: 66px 45px;
+}
+.testimonials{
+	display: inline-block;
+	color: #ffffff;
+	text-align: center;
+	margin: auto 20px;
+}
+.testimonials-person{
+	font-family: "Paralucent", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 500px;
+
+}
+.testimonials-title{
+	font-family: "DagnyPro", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+}
+.testimonials-quote{
+	font-family: "DagnyPro", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	font-weight: 500px;
+}
+.first-testimonial{
+	margin-left: 65px;
+	margin-right: 60px;
+}
+.second-testimonial{
+
+}
+.third-testimonial{
+	margin-left: 60px;
+	margin-right: 65px;
+}
+/************************/
+/***** CTA Footer *******/
+/************************/
+.cta-block{
+	height: 524px;
+	width: 1280px;
+	background-image: url(../images/footer-cta.png);
+	text-align: center;
+	padding-top: 160px; 
+}
+#cta-txt{
+	font-family: "Paralucent", Helvetica, Arial, sans-serif;
+	font-size: 40px;
+	font-weight: 500;
+	color: white;
+}
+/************************/
+/******* Footer *********/
+/************************/
+.footer {
+	background-color: #003759;
+	padding: 18px auto;
+	width: 1280px;
+}
+.footer-list{
+	display: inline-block;
+	margin: auto 100px auto 40px;
+}
+#logo-footer{
+	margin: auto 310px auto 120px;
+	display: inline-block;
+}
+.footer-item{
+	height: 15.1px;
+	list-style-type: none;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	display: inline-block;a
+	font-size: 1.1em;
+	color: white;
+	float: center;
+}
+.copyright{
+	display: inline-block;
+	color: white;
+}
