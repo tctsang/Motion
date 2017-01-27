@@ -103,14 +103,28 @@ header nav ul > li{
 	margin-right: 550px;
 }
 header nav img{
-	width: 108px;
-	height: 20px;
+	width: 43px;
+	height: 25px;
+	display: inline-block;
+	margin: 0 5px;
 	position: relative;
-	top: 25px;
+	
 }
 header nav ul > li > a {
    color:#FFFFFF;
    text-decoration: none;
+ }
+ .site-logo {
+ 	color: white;
+ 	font-family: "Paralucent", Helvetica, Arial, sans-serif;
+ 	font-size: 40px;
+ 	list-style-type: none;
+ 	font-weight: bold;
+ 	margin: 0 10px;
+ 	display: inline-block;
+ 	text-decoration: none;
+ 	position: relative;
+	top: 28px;
  }
 /********************/
 /******* Hero *******/
@@ -120,15 +134,16 @@ header .hero{
 	display: block;
 	position: relative;
 	/*background-color: blue;*/
-	background-image: url("../images/hero.png");
+	background-image: url("../images/hero-1920.png");
 	height: 600px;
 	background-repeat: repeat-x;
 	background-position: 50% 0%;
+
 }
 header .hero h1{
 	width: 250px;
 	height: 73px;
-	font-family: Paralucent;
+	font-family: "Paralucent", Helvetica, Arial, sans-serif;
 	font-size: 75px;
 	font-weight: bold;
 	font-style: normal;
@@ -137,6 +152,14 @@ header .hero h1{
 	letter-spacing: normal;
 	color: #ffffff;
 	/*background-color: gray;*/
+	display: inline-block;
+	margin-top: 85px;
+}
+header .hero h2{
+	font-family: "Paralucent", Helvetica, Arial, sans-serif;
+	font-size: 40px;
+	color: #FFFFFF;
+	font-weight: normal;
 	display: inline-block;
 }
 header .hero p{
@@ -186,6 +209,7 @@ header .hero .hero-txt{
    display: block;
    position: relative;
    left: 3.7%;
+   margin-top: 65px;
 }
  .links  .link{
  	width: 550px;
@@ -319,7 +343,7 @@ footer .cta{
 	display: block;
 	position: relative;
 	/*background-color: blue;*/
-	background-image: url("../images/footer-cta.png");
+	background-image: url("../images/footer-cta-1920.png");
 	height: 525px;
 	width: 100%;
 	background-repeat: repeat-x;
@@ -371,7 +395,7 @@ footer{
 footer nav{
 	width: 100%;
 	background-color: #003759; 
-	padding: 1em 0;
+	padding: 5px 0;
 }
 footer nav div{
 	display: inline;
@@ -382,7 +406,7 @@ footer nav ul{
 	float: left;
 	margin: 0;
 	position: relative;
-	top: 40px;
+	top: 60px;
 }
 footer nav ul > li{
 	list-style-type: none;
@@ -390,15 +414,19 @@ footer nav ul > li{
 	margin: 0 15px;
 }
 footer nav img{
-	width: 108px;
-	height: 20px;
+	width: 43px;
+	height: 25px;
+	display: inline-block;
+	margin: 0 790px;
+	margin-right: 5px;
 	position: relative;
-	left: 47%;
-	/*background-color: white;*/
+	/*background-color: blue;*/
 }
 footer nav ul > li > a {
    color:#FFFFFF;
    text-decoration: none;
+   display: inline-block;
+   /*background-color: gray;*/
  }
 #copyright{
 	display: inline;
@@ -407,6 +435,19 @@ footer nav ul > li > a {
 	margin: 0;
 	position: relative;
 	color: white;
-	bottom: 35px;
+	bottom: 45px;
 	right:20px;
+}
+.site-logo-footer{
+	position: relative;
+	color: white;
+ 	font-family: "Paralucent", Helvetica, Arial, sans-serif;
+ 	font-size: 40px;
+ 	list-style-type: none;
+ 	font-weight: bold;
+ 	margin: 0 10px;
+ 	display: inline-block;
+ 	text-decoration: none;
+ 	
+ }
 }
