@@ -98,9 +98,10 @@ header nav ul > li{
 	list-style-type: none;
 	display: inline-block;
 	margin: 0 15px;
+	font-size: 25px;
 }
 .fourth-tn{
-	margin-right: 550px;
+	margin-right: 410px;
 }
 header nav img{
 	width: 43px;
@@ -153,7 +154,8 @@ header .hero h1{
 	color: #ffffff;
 	/*background-color: gray;*/
 	display: inline-block;
-	margin-top: 85px;
+	margin-top: 105px;
+	margin-bottom: 20px;
 }
 header .hero h2{
 	font-family: "Paralucent", Helvetica, Arial, sans-serif;
@@ -161,6 +163,7 @@ header .hero h2{
 	color: #FFFFFF;
 	font-weight: normal;
 	display: inline-block;
+	margin-bottom: 10px;
 }
 header .hero p{
 	width: 478px;
@@ -412,6 +415,8 @@ footer nav ul > li{
 	list-style-type: none;
 	display: inline-block;
 	margin: 0 15px;
+	margin: 0 15px;
+	font-size: 25px;
 }
 footer nav img{
 	width: 43px;
@@ -437,6 +442,7 @@ footer nav ul > li > a {
 	color: white;
 	bottom: 45px;
 	right:20px;
+	font-size: 25px;
 }
 .site-logo-footer{
 	position: relative;
