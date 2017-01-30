@@ -11,9 +11,11 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="css/style_large.css">
+	<!--
 	<link rel="stylesheet" type="text/css" media="only screen and (min-width:768px) and (max-width: 980px)" href="css/style_768.css">
 	<link rel="stylesheet" type="text/css" media="only screen and (min-width:600px) and (max-width: 767px)" href="css/style_600.css">
 	<link rel="stylesheet" type="text/css" media="only screen and (min-width:300px) and (max-width: 599px)" href="css/style_300.css">
+	-->
 </head>
 <body>
 <div class="wrapper">
@@ -21,15 +23,19 @@
 <!-- Top Nav -->
 <header>
 <nav class="container">
-	<div class="one-half">
-		<a href="index.html" class="site-logo"><img src="images/logo-1920.png" id="logo" alt="Motion"/>Motion</a>
+	<div>
+		<a href="index.html" class="site-logo one-third"><img src="images/logo-1920.png" id="logo" alt="Motion"/>Motion</a>
 	</div>
-	<div class="one-half">
-		<ul>
-			<li class="first-tn"><a href="features.html">Features</a></li>
+	<div>
+		<ul class="one-third features">
+			<li><a href="features.html">Features</a></li>
 			<li><a href="tutorials.html">Tutorials</a></li>
 			<li><a href="libraries.html">Libraries</a></li>
-			<li class="fourth-tn"><a href="gallery.html">Gallery</a></li>	
+			<li><a href="gallery.html">Gallery</a></li>	
+		</ul>
+	</div>
+	<div>
+		<ul class="one-third onboard">
 			<li><a href="buyNow.html">Buy Now</a></li>
 			<li><a href="freeTrial.html">Free Trial</a></li>
 		</ul>
@@ -76,10 +82,14 @@
 
 			</div>
 		</div>
-		<img src="images/first-img.png" class="one-half benefit-img" alt=Animations>	
-		
-	<img src="images/second-img.png" class="one-half benefit-img second-img" alt="Code Generator">	
-	<div class="benefit one-half second-benefit">
+		<div class="benefit one-half">
+			<img src="images/first-img.png" class="benefit-img first-img" alt="Animations">	
+		</div>
+
+	<div class="one-half" >	
+		<img src="images/second-img.png" class="benefit-img second-img" alt="Code Generator">	
+	</div>	
+	<div class="benefit one-half second-benefit" id="offset">
 			<div class="benefit-description second-description">
 
 			<h2>Code Generator</h2>
@@ -91,7 +101,6 @@
 
 			 </div>
 	</div>
-	
 
 		<div class="benefit one-half third-benefit">
 			<div class="benefit-description third-description">
@@ -99,12 +108,14 @@
 			<h2>Cross-Platform</h2>		
 			<p>	Import easily from Sketch across multiple<br/>
 			 device platforms.  Designed for desktop, laptop,<br/>
-		 tablet, and mobile compatibility.  Update imports<br/>
+		   tablet, and mobile compatibility.  Update imports<br/>
 			 and save on the fly.</p>
 
 			</div>
 		</div>
-		<img src="images/third-img.png" class="one-half benefit-img third-img" alt=Cross-Platform>	 
+		<div class="benefit one-half">
+			<img src="images/third-img.png" class="benefit-img third-img" alt="Cross-Platform">	 
+		</div>
 	</section>
 
 <!-- Testimonials -->
@@ -148,19 +159,21 @@
 	</div>
 	<!-- Bottom Nav -->
 	<nav class="container">
-		<div class="one-third">
-			<ul>
+		<div>
+			<a href="index.html" class="site-logo one-third"><img src="images/logo-1920.png" id="logo" alt="Motion"/>Motion</a>
+		</div>
+		<div>
+			<ul class="one-third">
 				<li><a href="blog.html">Blog</a></li>
 				<li><a href="socialMedia.html">Social Media</a></li>
 				<li><a href="pricing.html">Pricing</a></li>
 				<li><a href="faq.html">FAQ</a></li>	
 			</ul>
 		</div>	
-		<div class="one-third">
-			<a href="index.html" class="site-logo-footer"><img src="images/logo-1920.png" id="logo" alt="Motion"/>Motion</a>
-		</div>
-		<div class="one-third" id="copyright">
-			 2017. Motion - All Rights Reserved.
+		<div>
+		 <ul class="one-third" id="copyright">
+			<li>&copy; 2017. Motion - All Rights Reserved.</li>
+		 </ul>
 		</div>
 	</nav>
 	</footer>
