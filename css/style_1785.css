@@ -1,0 +1,226 @@
+/********************************************************************/
+
+/************************ 1785 Media Query **************************/
+
+/********************************************************************/
+ @media (max-width: 1785px) {
+ /**************************************/
+ /*************** Grid *****************/
+ /**************************************/
+ .wrapper{
+ 	font-size: 1.6em;
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+	background-color: white;
+ 	}
+.container {
+     width: 100%;
+ 	}
+.one-half {
+     width:46%;
+    /* background-color: gray; */
+    }
+.one-third {
+     width:29.33333%;
+ 	/* background-color: gray; */
+    }
+.one-fourth {
+     width:21%;
+    }
+/**************************************/
+/************ Top Nav *****************/
+/**************************************/
+.site-logo {
+ 	color: white;
+ 	font-family: "Paralucent", Helvetica, Arial, sans-serif;
+ 	font-size: 40px;
+ 	list-style-type: none;
+ 	font-weight: bold;
+ 	margin: 0 10px;
+ 	display: inline-block;
+ 	text-decoration: none;
+ 	position: relative;
+	top: 1px;
+ }
+header nav ul{
+	display: inline;
+	text-align: center;
+	margin: 0;
+	position: relative;
+	top: 12px;
+	left: 50px;
+}
+.hamburger{
+	display:none;
+}
+/**************************************/
+/*************** Links ****************/
+/**************************************/
+.links  .link{
+ 	width: 30%;
+    margin: 0 15px;
+    padding: 0px 8px;
+ 	background-color: gray; 
+    display: inline-block;
+    position: relative;
+    right: 15px;
+
+ 	}
+/**************************************/
+/************ Benefits ****************/
+/**************************************/
+.benefits{
+	display: block;
+	position:relative;
+	top: 20px;
+}
+.benefits  .benefit{
+ 	width: 46%;
+ 	height: 327px;
+    padding: 75px 1px;
+    margin-left: 30px;
+    margin-right: 5px;
+    margin-top: 100px;
+     /*background-color: blue;*/
+    display: inline-block;
+    position: relative;
+    left: 320px;
+ }
+.benefits .benefit-img{
+ 	width: 	553px;
+ 	position: relative;
+ 	right: 200px;
+ }
+.benefits .second-benefit{
+ 	width: 	46%;		/*553px;*/
+	height: 327px;
+    margin: 100px 5px;
+    padding: 75px 1px;
+    /*background-color: brown;*/ 
+    display: inline-block;
+    position:relative;
+ 	 right: 0px;
+ }
+.benefits .second-img{
+ 	width: 553px;
+ 	margin-left: 30px;
+    margin-right: 5px;
+    position:relative;
+    left:0px;
+ }
+.benefits .third-benefit{
+ 	width: 46%;
+ 	height: 327px;
+    padding: 75px 1px;
+ 	/*background-color: gray;*/
+ 	margin-left: 50px;
+ 	margin-right: 30px;
+ 	display: inline-block;
+ 	position: relative;
+    left: 302px;
+
+ }
+.benefits .third-img{
+ 	width: 553px;
+ 	position: relative;
+ 	right: 245px;
+ }
+.benefits  .benefit h2{
+ 	font-family: "Paralucent", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	font-weight: 500;
+	color: #2b3840;
+	margin-bottom: 10px;
+ }
+.benefits  .benefit p{
+ 	font-family: "DagnyPro", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	color: #676b6d;
+	width: 501px;
+	height: 124px;
+	margin-right: 20px;
+ }
+.one-half{
+ /*	background-color: gray; */
+ 	width: 46%;
+	height: 327px;
+    margin: 100px 50px;
+    padding: 0px 18px;
+    display: inline-block;
+ }
+/**************************************/
+/********** Testimonials **************/
+/**************************************/
+.testimonials  .testimonial{
+    width: 30%;
+    margin: 85px 25px;
+    padding: 0px 10px;
+    background-color: gray; 
+    display: inline-block;
+}
+/**************************************/
+/************* Footer *****************/
+/**************************************/
+footer{
+	width: 100%;
+	height: 659px;
+}
+footer nav{
+	width: 100%;
+	background-color: #003759; 
+	padding: 1em 0;
+}
+footer nav div{
+	display: inline;
+}
+ footer nav ul > li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 15px;
+	font-size: 18px;
+}
+ footer nav img{
+	width: 43px;
+	height: 25px;
+	display: inline-block;
+	margin: 0 5px;
+	position: relative;
+	
+}
+ footer nav ul > li > a {
+   color:#FFFFFF;
+   text-decoration: none;
+ }
+ .site-logo-footer {
+ 	color: white;
+ 	font-family: "Paralucent", Helvetica, Arial, sans-serif;
+ 	font-size: 40px;
+ 	list-style-type: none;
+ 	font-weight: bold;
+ 	margin: 0 10px;
+ 	display: inline-block;
+ 	text-decoration: none;
+ 	position: relative;
+	top: 1px;
+	left:130px;
+	width: 200px;
+ }
+	footer nav ul{
+	display: inline-block;
+	text-align: center;
+	margin: 0 150px;
+	position: relative;
+	top: 12px;
+	left: 50px;
+	/*background-color: black;*/
+}
+#copyright{
+	margin: 0 100px;
+	width: 360px;
+	text-align: center;
+	display: inline-block;
+	color: white;
+	font-size: 18px;
+}
+ }

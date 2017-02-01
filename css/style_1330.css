@@ -1,0 +1,240 @@
+/********************************************************************/
+
+/************************ 1330 Media Query **************************/
+
+/********************************************************************/
+ @media (max-width: 1330px){
+/**************************************/
+/*************** Grid *****************/
+/**************************************/
+.wrapper{
+ 	font-size: 1.6em;
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+	background-color: white;
+ 	}
+.container {
+     width: 100%;
+ 	}
+.one-half {
+     width:46%;
+   /* background-color: red;*/
+    }
+.one-third {
+     width:29.33333%;
+    /* background-color: red;*/
+    }
+.one-fourth {
+     width:21%;
+    }
+/*******************************************/
+/************** Top Navigation *************/
+/*******************************************/
+header{
+	width: 100%;
+	height: 659px;
+}
+header nav{
+	width: 100%;
+	background-color: #003759; 
+	padding: 1em 0;
+}
+header nav div{
+	display: inline;
+}
+ header nav ul > li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 10px;
+	font-size: 18px;
+}
+ header nav img{
+	width: 43px;
+	height: 25px;
+	display: inline-block;
+	margin: 0 5px;
+	position: relative;
+	
+}
+ header nav ul > li > a {
+   color:#FFFFFF;
+   text-decoration: none;
+ }
+ .site-logo {
+ 	color: white;
+ 	font-family: "Paralucent", Helvetica, Arial, sans-serif;
+ 	font-size: 40px;
+ 	list-style-type: none;
+ 	font-weight: bold;
+ 	margin: 0 10px;
+ 	display: inline-block;
+ 	text-decoration: none;
+ 	position: relative;
+	top: 1px;
+	width: 200px;
+ }
+	header nav ul{
+	display: inline-block;
+	text-align: center;
+	margin: 0 600px;
+	position: relative;
+	top: 12px;
+	/*background-color: black;*/
+}
+.features{
+	width:30%;
+}
+.onboard{
+	width:30%;
+	text-align: center;
+	margin-right: 10px;
+}
+.one-third{
+	width: 30%;
+}    
+.hamburger{
+	display:none;
+}
+/**************************************/
+/************* Links ******************/
+/**************************************/
+.links{
+	margin-top: 30px;
+}
+.links  .link{
+ 	width: 30%;
+    margin: 0 15px;
+    padding: 0px 18px;
+    background-color: blue;  
+    display: inline-block;
+    }
+.link-title{
+	font-family: "Paralucent", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	color: #2b3840;
+ }    
+/**************************************/
+/************* Benefits ***************/
+/**************************************/
+.benefits{
+	display: block;
+	position:relative;
+	top: 20px;
+	text-align: center;
+}
+.benefits  .benefit{
+ 	width: 100%;
+ 	height: 7px;
+    padding: 5px auto;
+    margin-top: -35px;
+    margin-left: -80px;
+    margin-bottom: 1px;
+    display: inline;
+   }
+.benefits .benefit-img{
+ 	width: 	553px;
+ 	position: relative;
+ 	right: 0px;
+ }
+ .benefits .benefit .benefit-description{
+ 	text-align: center;
+ 	/*background-color: gray;*/
+ 	margin-bottom: 0px;
+ }
+ .benefits .benefit .benefit-txt{
+ 	position: relative;
+ 	text-align: center;
+ 	margin: 10px auto;
+ 	/*background-color: orange;*/
+ 	top: 380px;
+ }
+.benefits .second-benefit{
+ 	width: 	100%;
+	height: 327px;
+    margin: 100px 5px;
+    padding: 75px 1px;
+  /*  background-color: brown;*/ 
+    display: inline-block;
+    position:relative;
+ 	right: 150px;
+ 	margin-right: 10px;
+ 	top:380px;
+ }
+.benefits .second-img{
+ 	width: 553px;
+    position:relative;
+    left: 0px;
+    top: 430px;
+    text-align: center;
+ }
+ .benefits .benefit .second-benefit-txt{
+ 	position: relative;
+ 	text-align: center;
+ 	margin: 10px auto;
+ 	/*background-color: orange;*/
+ 	top: 400px;
+ }
+ #offset {
+ /*	background-color: red; */
+ 	width: 100%;
+	height: 327px;
+    margin: -150px 5px;
+    margin-left: -80px;
+    margin-bottom: 200px;
+    padding: 75px 1px;
+    display: inline-block;
+ }
+.benefits .third-benefit{
+ 	width: 100%;
+ 	height: 7px;
+    padding: 5px auto;
+    margin-top: 530px;
+    margin-left: -30px;
+    margin-bottom: 1px;
+    display: inline;
+ }
+.benefits .third-img{
+ 	width: 553px;
+ 	position: relative;
+ 	right: 0px;
+ 	padding-bottom: 400px;
+ }
+.benefits  .benefit h2{
+ 	font-family: "Paralucent", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	font-weight: 500;
+	color: #2b3840;
+	margin-bottom: 10px;
+ }
+.benefits  .benefit p{
+ 	font-family: "DagnyPro", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	color: #676b6d;
+	width: 501px;
+	height: 124px;
+ }
+/**************************************/
+/*********** Testimonials *************/
+/**************************************/
+ .testimonials{
+   text-align: center;
+   display: inline-block;
+   position: relative;
+   	width: 100%;
+	height: 300px;
+	background-color: #4c616e;
+	margin:0px;
+	padding:0px;
+	margin-top: 400px;
+	top: 20px;
+}
+ .testimonials  .testimonial{
+ 	 width: 30%;
+     margin: 85px 15px;
+     padding: 0px 10px;
+     background-color: red; 
+     display: inline-block;
+     }
+ }
