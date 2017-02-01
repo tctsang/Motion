@@ -28,6 +28,9 @@
 .one-fourth {
      width:21%;
     }
+.twelve-eighty{
+	display:none;
+}    
 /**************************************/
 /************ Top Nav *****************/
 /**************************************/
@@ -61,7 +64,7 @@ header nav ul{
  	width: 30%;
     margin: 0 15px;
     padding: 0px 8px;
- 	background-color: gray; 
+ 	/*background-color: gray; */
     display: inline-block;
     position: relative;
     right: 15px;
@@ -156,7 +159,7 @@ header nav ul{
     width: 30%;
     margin: 85px 25px;
     padding: 0px 10px;
-    background-color: gray; 
+ /*   background-color: gray; */
     display: inline-block;
 }
 /**************************************/
@@ -222,5 +225,9 @@ footer nav div{
 	display: inline-block;
 	color: white;
 	font-size: 18px;
+}
+.one-third{
+	/*background-color: black;*/
+	width: 30%;
 }
  }

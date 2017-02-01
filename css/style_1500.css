@@ -28,6 +28,9 @@
 .one-fourth {
      width:21%;
     }
+.twelve-eighty{
+    display:none;
+}    
 /**************************************/
 /************* Links ******************/
 /**************************************/
@@ -38,7 +41,7 @@
  	width: 30%;
     margin: 0 15px;
     padding: 0px 18px;
-    background-color: blue;  
+ /*   background-color: blue;  */
     display: inline-block;
     }
 .link-title{

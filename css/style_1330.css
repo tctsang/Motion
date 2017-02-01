@@ -28,6 +28,9 @@
 .one-fourth {
      width:21%;
     }
+.twelve-eighty{
+	display:none;
+}    
 /*******************************************/
 /************** Top Navigation *************/
 /*******************************************/
@@ -106,7 +109,7 @@ header nav div{
  	width: 30%;
     margin: 0 15px;
     padding: 0px 18px;
-    background-color: blue;  
+ /*   background-color: blue;  */
     display: inline-block;
     }
 .link-title{
@@ -234,7 +237,7 @@ header nav div{
  	 width: 30%;
      margin: 85px 15px;
      padding: 0px 10px;
-     background-color: red; 
+    /* background-color: red; */
      display: inline-block;
      }
  }
