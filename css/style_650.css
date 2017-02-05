@@ -1,33 +1,9 @@
 /********************************************************************/
 
-/************************ 1280 Media Query **************************/
+/************************* 650 Media Query **************************/
 
 /********************************************************************/
- @media (max-width: 1280px){
-/**************************************/
-/*************** Grid *****************/
-/**************************************/
-.wrapper{
- 	font-size: 1.6em;
-	width: 100%;
-	padding: 0;
-	margin: 0 auto;
-	/*background-color: orange;*/
- 	}
-.container {
-     width: 100%;
- 	}
-.one-half {
-     width:46%;
-   /* background-color: red;*/
-    }
-.one-third {
-     width:29.33333%;
-    /* background-color: red;*/
-    }
-.one-fourth {
-     width:21%;
-    }
+ @media (max-width: 650px){
 /*******************************************/
 /************** Top Navigation *************/
 /*******************************************/
@@ -123,40 +99,82 @@ header nav ul{
 .twelve-eighty{
 	width: 100%;
 	display:inline-block;
+	/*background-color: red;*/
 	}
-/**************************************/
-/************** Hero ******************/
-/**************************************/
+/*******************************************/
+/**************** Hero *********************/
+/*******************************************/
 header .hero{
 	width: 100%;
 	text-align: center;
 	display: block;
 	position: relative;
 	background-image: linear-gradient(-180deg, #26A6D2 0%, #116DA5 100%);
-	height: 600px;
+	height: 400px;
 	background-repeat: repeat-x;
 	background-position: 50% 0%;
 
 }
-/**************************************/
-/************* Links ******************/
-/**************************************/
-.links{
-	margin-top: 30px;
-	display:none;
-}
-.links  .link{
- 	width: 30%;
-    margin: 0 15px;
-    padding: 0px 18px;
-   /* background-color: blue;  */
-    display: inline-block;
-    }
-.link-title{
+header .hero h1{
+	width: 100%;
+	height: 73px;
 	font-family: "Paralucent", Helvetica, Arial, sans-serif;
-	font-size: 20px;
-	font-weight: 500;
-	color: #2b3840;
+	font-size: 48px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #ffffff;
+	display: inline-block;
+	margin-top: 105px;
+	margin-bottom: -10px;
+}
+header .hero h2{
+	font-family: "Paralucent", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	color: #FFFFFF;
+	font-weight: normal;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+header .hero p{
+	width: 478px;
+	height: 22px;
+	font-family: "DagnyPro", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+	display: inline-block;
+}
+header .hero .hero-txt{
+	width: 600px;
+	height: 400px;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	/*background-color: black;*/
+	height: 600px;
+}
+.btn {
+	display: inline-block;
+	text-align: center;
+	width: 206px;
+	height: 47px;
+   border-radius: 4px;
+   color:#FFFFFF;
+   font-weight: 700;
+   text-decoration: none;
+   padding:10px 30px;
+   background: #0acc9f;
+   border: 2px solid #0acc9f;
+   box-shadow: 0px 2px 0px 0px #22894E;
+   margin: 50px auto;
  }
 /**************************************/
 /************* Benefits ***************/
@@ -164,33 +182,109 @@ header .hero{
 .benefits{
 	display: block;
 	position:relative;
-	top: 20px;
+	margin-top: -150px;
 	text-align: center;
-	right: 100px;
 }
+.benefits  .benefit{
+ 	width: 100%;
+ 	height: 7px;
+    padding: 5px auto;
+    margin-top: -35px;
+    margin-left: -80px;
+    margin-bottom: 1px;
+    display: inline;
+   }
+.benefits .benefit-img{
+ 	width: 	307px;
+ 	height: 194px;
+ 	position: relative;
+ 	right: 0px;
+ }
+ .benefits .benefit .benefit-description{
+ 	text-align: center;
+ 	margin-bottom: 0px;
+ }
+ .benefits .benefit .benefit-txt{
+ 	position: relative;
+ 	text-align: center;
+ 	margin: 10px auto;
+ 	/*background-color: orange;*/
+ 	top: 220px;
+ }
+.benefits .second-benefit{
+ 	width: 	100%;
+	height: 327px;
+    margin: 100px 5px;
+    padding: 75px 1px;
+  /*  background-color: brown;*/ 
+    display: inline-block;
+    position:relative;
+ 	right: 150px;
+ 	margin-right: 10px;
+ 	top:200px;
+ }
+.benefits .second-img{
+ 	width: 307px;
+ 	height: 194px;
+    position:relative;
+    left: 0px;
+    top: 250px;
+    text-align: center;
+ }
+ .benefits .benefit .second-benefit-txt{
+ 	position: relative;
+ 	text-align: center;
+ 	margin: 10px auto;
+ 	/*background-color: orange;*/
+ 	top: 230px;
+ }
+ #offset {
+ /*	background-color: red; */
+ 	width: 100%;
+	height: 327px;
+    margin: -150px 5px;
+    margin-left: -80px;
+    margin-bottom: 200px;
+    padding: 75px 1px;
+    display: inline-block;
+ }
 .benefits .third-benefit{
  	width: 100%;
  	height: 7px;
     padding: 5px auto;
-    margin-top: 530px;
-    margin-left: -55px;
+    margin-top: 150px;
+    margin-left: -50px;
     margin-bottom: 1px;
-    display: inline;
- }	
+    display: inline-block;
+ }
 .benefits .third-img{
- 	width: 553px;
+ 	width: 307px;
+ 	height: 194px;
  	position: relative;
  	right: 0px;
- 	padding-bottom: 400px;
+ 	padding-bottom: 40px;
  }
-.benefits .benefit .third-benefit-txt{
+  .benefits .benefit .third-benefit-txt{
  	position: relative;
  	text-align: center;
-	margin: 10px auto;
+ 	margin: 10px auto;
  	/*background-color: orange;*/
- 	top: 380px;
- } 
-}         
+ 	top: 180px;
+ }
+.benefits  .benefit h2{
+ 	font-family: "Paralucent", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	color: #2b3840;
+	margin-bottom: 10px;
+ }
+.benefits  .benefit p{
+ 	font-family: "DagnyPro", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	color: #676b6d;
+	width: 501px;
+	height: 124px;
+ }
 /**************************************/
 /*********** Testimonials *************/
 /**************************************/
@@ -203,7 +297,7 @@ header .hero{
 	background-color: #4c616e;
 	margin:0px;
 	padding:0px;
-	margin-top: 400px;
+	margin-top: 200px;
 	top: 20px;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -212,7 +306,7 @@ header .hero{
  	 width: 100%;
      margin: 12px 15px;
      padding: 0px 10px;
-    /*background-color: red; */
+   /* background-color: blue; */
      display: block;
      }
 /*******************************************/
@@ -223,21 +317,54 @@ footer .cta{
 	display: block;
 	position: relative;
 	/*background-color: blue;*/
-	background-image: url("../images/footer-cta-1920.png");
-	height: 525px;
+	background-image: url("../images/footer-cta-650.png");
+	height: 425px;
 	width: 100%;
 	background-repeat: repeat-x;
 	background-position: 50% 0%;
 	margin: 0;
 	padding: 0;
 	top:10px;
-}     
+}
+footer .cta h1{
+	width: 100%;
+	height: 40px;
+	font-family: "Paralucent", Helvetica, Arial, sans-serif;
+	font-size: 40px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #ffffff;
+	/*background-color: gray;*/
+	display: inline-block;
+	text-align:center;
+	margin-top: 70px;
+}
+footer .cta .btn{
+	margin-bottom: 50px;
+	background: black;
+	display: block;
+	text-align: center;
+	width: 206px;
+	height: 47px;
+   border-radius: 4px;
+   color:#FFFFFF;
+   font-weight: 700;
+   text-decoration: none;
+   padding:10px 30px;
+   background: #0acc9f;
+   border: 2px solid #0acc9f;
+   box-shadow: 0px 2px 0px 0px #22894E;
+   margin: 150px auto;
+}
 /*******************************************/
 /*************** Footer ********************/
 /*******************************************/
 footer{
 	width: 100%;
-	height: 600px;
+	height: 500px;
 }
 footer nav{
 	width: 100%;
@@ -287,19 +414,20 @@ footer nav ul{
 	position: relative;
 	top: 12px;
 	width: 46%;
+	display:none;
 }
 #copyright{
-	margin: 0 1px;
-	width: 46%;
-	text-align: right;
+	margin: 10px;
+	width: 100%;
+	text-align: center;
 	display: inline;
 	color: white;
 	font-size: 18px;
-	margin-left: 50px;
-/*	background-color: red;*/
-
 }
 .one-third{
-	width:46%;
+	width:100%;
 	margin-left: 2px;
 }
+
+
+ }

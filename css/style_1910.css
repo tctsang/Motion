@@ -1,3 +1,9 @@
+/********************************************************************/
+
+/************************ 1910 Media Query **************************/
+
+/********************************************************************/
+ @media (min-width: 1910px) {
 /*******************************************/
 /****************** Wrapper ****************/
 /*******************************************/
@@ -99,7 +105,7 @@ header nav div{
 	margin: 0 6px;
 	position: relative;
 	top: 12px;
-/*	background-color: red; */
+	/*background-color: red; */
 }
 .features{
 	width:50px;
@@ -110,7 +116,7 @@ header nav div{
 	margin-right: 1px;
 }
 .one-third{
-	/*background-color: black;*/
+/*	background-color: black; */
 	width: 30%;
 }
 .hamburger{
@@ -488,4 +494,5 @@ footer nav div{
 	display: inline-block;
 	color: white;
 	font-size: 18px;
+}
 }

@@ -204,6 +204,13 @@ header nav div{
  	right: 0px;
  	padding-bottom: 400px;
  }
+ .benefits .benefit .third-benefit-txt{
+ 	position: relative;
+ 	text-align: center;
+	margin: 10px auto;
+ 	/*background-color: orange;*/
+ 	top: 380px;
+ } 
 .benefits  .benefit h2{
  	font-family: "Paralucent", Helvetica, Arial, sans-serif;
 	font-size: 25px;
