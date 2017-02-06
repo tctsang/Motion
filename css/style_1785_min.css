@@ -211,10 +211,10 @@ footer nav div{
     footer nav ul{
     display: inline-block;
     text-align: center;
-    margin: 0 150px;
+    margin: 0 120px;
     position: relative;
     top: 12px;
-    left: 10px;
+    left: 50px;
     /*background-color: black;*/
 }
 .one-third{
@@ -228,6 +228,6 @@ footer nav div{
     display: inline-block;
     color: white;
     font-size: 18px;
-    margin-left: 180px;
+    margin-left: 40px;
 }
  }

@@ -34,7 +34,6 @@ header .hero h1{
 	margin-bottom: -10px;
 	position: relative;
 	text-align: center;
-	background-color: black;
 }
 header .hero h2{
 	font-family: "Paralucent", Helvetica, Arial, sans-serif;
@@ -45,7 +44,7 @@ header .hero h2{
 	margin-bottom: 10px;
 	position: relative;
 	text-align: center;
-	background-color: black;
+
 }
 header .hero p{
 	width: 478px;
@@ -62,7 +61,6 @@ header .hero p{
 	display: inline-block;
 	position: relative;
 	text-align: center;
-	background-color: black;
 }
 header .hero .hero-txt{
 	width: 600px;
